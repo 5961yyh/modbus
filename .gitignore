@@ -1,0 +1,13 @@
+# 忽略编译中间文件
+/build/
+/CMakeFiles/
+/cmake_install.cmake
+/CMakeCache.txt
+/Makefile
+
+# 忽略可执行文件
+mod_slave
+*.o
+
+# 可选：忽略 IDE 配置
+.vscode/
