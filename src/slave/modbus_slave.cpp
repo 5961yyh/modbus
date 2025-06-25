@@ -4,7 +4,7 @@
 
 int main() {
     printf("1. create ctx\n");
-    modbus_t *ctx = modbus_new_rtu("/dev/pts/2", 9600, 'N', 8, 1);
+    modbus_t *ctx = modbus_new_rtu("/dev/ttyS3", 9600, 'N', 8, 1);
 
     modbus_set_slave(ctx, 1);
     printf("2. try connect...\n");

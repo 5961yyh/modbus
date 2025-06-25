@@ -1,1 +1,2 @@
 运行./build.sh slave进行构建
+运行./build.sh slave CrossCompile.cmake进行交叉编译构建
